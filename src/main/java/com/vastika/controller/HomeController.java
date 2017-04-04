@@ -40,6 +40,12 @@ public class HomeController {
 
 	}
 	
+	@RequestMapping(value = "/hi", method = RequestMethod.GET)
+	public String home2() {
+		return "home";
+
+	}
+	
 
 	@RequestMapping(value = "/getStudents", method = RequestMethod.GET)
 	public String getStudent(Model model) {
