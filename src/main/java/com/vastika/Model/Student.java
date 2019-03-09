@@ -8,14 +8,12 @@ import javax.persistence.Id;
 @Entity
 public class Student {
 
-	
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private String name;
 	private int age;
 	private int salary;
-
 
 	public int getId() {
 		return id;
@@ -53,7 +51,5 @@ public class Student {
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", age=" + age + ", salary=" + salary + "]";
 	}
-	
-	
-	
+
 }
