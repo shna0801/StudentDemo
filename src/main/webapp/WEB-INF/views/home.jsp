@@ -9,7 +9,7 @@
 	Hello world!  
 </h1>
 
-<P>  Welcome to Student Databases: </P>
+<P>  Welcome to Student Databases with some changes: </P>
 
 <form action="${pageContext.request.contextPath}/addStudent" method="POST">
   First name: <input type="text" name="name"><br>
