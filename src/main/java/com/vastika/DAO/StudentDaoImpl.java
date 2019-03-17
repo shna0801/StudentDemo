@@ -22,6 +22,9 @@ public class StudentDaoImpl implements StudentDao {
 //	public void setSessionfactory(SessionFactory sessionfactory) {
 //		this.sessionfactory = sessionfactory;
 //	}
+	
+	
+
 
 	@Override
 	public void addStudent(Student s) {
