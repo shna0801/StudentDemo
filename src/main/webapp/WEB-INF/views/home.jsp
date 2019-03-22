@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>
-	Hello world!  
+	Hello world yay!  
 </h1>
 
 <P>  Welcome to Student Databases with some changes again: </P>
